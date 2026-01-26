@@ -1,3 +1,10 @@
+# git init
+# git branch -M main
+# git add .
+# git commit -m "Initial commit"
+# git remote add origin https://github.com/Rishikvashu/python_practice.git
+# git push -u origin main
+
 # print("Hi")
 # name = "Rishi"
 # age = 21
