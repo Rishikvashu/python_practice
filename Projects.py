@@ -647,3 +647,26 @@
 # result = array_rotation(arr, displacement)
 # print(f"When displacement is {displacement}: The original array {arr} becomes {result}")
 
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+# Project 34: 
+
+# Description: Write a Python Program to Split the array and add the first part to the end?
+
+#Code: 
+def split_and_add(array, position):
+    l = len(array)
+    if position < 0 or position > l:
+        print("Invalid spllit position")
+        return array
+    else:
+        first_part = array[0:position]
+        second_part = array[position:]
+        result = second_part + first_part
+        return result
+
+array = [1,2,3,4,5,6,7]
+position = 4
+result = split_and_add(array, position)
+print(result)
+
