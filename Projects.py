@@ -649,11 +649,11 @@
 
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Project 35: 
+Project 35: 
 
 # Description: Write a Python Program to Split the array and add the first part to the end?
 
-#Code: 
+# Code: 
 def split_and_add(array, position):
     l = len(array)
     if position < 0 or position > l:
