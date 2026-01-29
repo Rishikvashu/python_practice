@@ -654,19 +654,43 @@
 # Description: Write a Python Program to Split the array and add the first part to the end?
 
 # Code: 
-def split_and_add(array, position):
-    l = len(array)
-    if position < 0 or position > l:
-        print("Invalid spllit position")
-        return array
-    else:
-        first_part = array[0:position]
-        second_part = array[position:]
-        result = second_part + first_part
-        return result
+# def split_and_add(array, position):
+#     l = len(array)
+#     if position < 0 or position > l:
+#         print("Invalid spllit position")
+#         return array
+#     else:
+#         first_part = array[0:position]
+#         second_part = array[position:]
+#         result = second_part + first_part
+#         return result
 
-array = [1,2,3,4,5,6,7]
-position = 4
-result = split_and_add(array, position)
-print(result)
+# array = [1,2,3,4,5,6,7]
+# position = 4
+# result = split_and_add(array, position)
+# print(result)
 
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+# Project 36: 
+
+# Description: Write a Python Program to check if given array is Monotonic.
+
+# Code: 
+
+# def is_monotonic(array):
+#     increasing = True
+#     decreasing = True
+# #array = [1,3,2,5,4]
+#     for i in range(1 , len(array)):
+#         if array[i] > array[i-1]: 
+#             decreasing = False
+#         elif array[i] < array[i-1]:
+#             increasing = False
+#     return increasing or decreasing
+
+# array1 = [1,3,5,2,6,7]
+# array2 = [2,3,4,5,6,7,8]
+
+# print(f"Is array1 monotonic : ", is_monotonic(array1))
+# print(f"Is array2 monotonic : ", is_monotonic(array2))
